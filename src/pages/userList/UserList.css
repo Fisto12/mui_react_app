@@ -1,0 +1,28 @@
+.user{
+    flex: 4;
+}
+.userinf{
+    display:flex;
+    align-items: center;
+}
+.userrimmg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.userlistedit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.userdel{
+    color: red;
+    cursor: pointer;
+    
+}

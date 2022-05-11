@@ -1,0 +1,128 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+.usertitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userAddbtn{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.usercontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.usershow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);;
+    margin-right: 20px;
+}
+.userupdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);;
+
+}
+.usershowtop{
+    display: flex;
+    align-items: center;
+}
+.usershowimg{
+    width: 40PX;
+    height: 40PX;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.usershowjobtitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.usershowusername{
+    font-weight: 600;
+}
+.showuserjob{
+    font-weight: 300;
+}
+.usershowbottom{
+    margin-top: 20px;
+}
+.useshowtit{
+    font-weight: 600;
+}
+.usershowinfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.usershowicon{
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+.userupdteimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 40px;
+}
+.userupdateform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.userupdatetitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.userupdateitem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px; 
+}
+.userupdateitem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.userupdinput{
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid grey;
+    height: 30px;
+}
+.userupdateright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.userupdtupoad{
+    display: flex;
+    align-items: center;
+}
+.userupdticon{
+    cursor: pointer;
+}
+.userupdtbtn{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    background-color: DARKBLUE;
+    color: white;
+    font-weight: bolder;
+}

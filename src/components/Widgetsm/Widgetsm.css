@@ -1,0 +1,56 @@
+.widgetsm{
+    flex: 1;
+    box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 55px 12px rgba(0,0,0,0.75);;
+    padding: 20px;
+    margin-right: 20px;
+
+}
+.widgetsmtitle{
+    font-size: 32px;
+    font-weight: bold;
+}
+.widgetsmimg{
+    font: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.widgetsmlist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.widgetsmlistitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.widgetsmuser{
+    display: flex;
+    flex-direction: column;
+}
+.widgetsmuserame{
+    font-weight: bold;
+}
+.widgetsmusertitle{
+    font-weight: 300;
+}
+.widgetbtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+
+}
+.widgeticon{
+    font-size: 16px !important;
+    margin-right: 5px;
+}
